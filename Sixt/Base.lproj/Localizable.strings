@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Sixt
+
+  Created by Ranjeet on 26/02/17.
+  Copyright © 2017 Ranjeet. All rights reserved.
+*/
+
+
+"loading" = "Loading...";
+
+"data_not_found" = "Data Not Found!";
+
+"name" = "Name";
+
+"model" = "Model";
+
+"group" = "Group";
+
+"fuel_type" = "Fuel Type";
+
+"fuel_level" = "Fuel Level";
+
+"transmission" = "Transmission";
+
+"licence" = "Licence";
+
