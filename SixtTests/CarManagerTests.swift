@@ -34,7 +34,7 @@ class CarManagerTests: XCTestCase {
         }
         
         waitForExpectations(timeout: 30) { (error) in
-            XCTAssertNil(error, "Test Time out to receive.\(error?.localizedDescription)")
+            XCTAssertNil(error, "Test Time out to receive car info.\(error?.localizedDescription)")
         }
     }
     

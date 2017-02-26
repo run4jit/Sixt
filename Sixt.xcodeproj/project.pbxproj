@@ -27,7 +27,6 @@
 		2DAEABCC1E6219ED00187304 /* SixtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABCB1E6219ED00187304 /* SixtUITests.swift */; };
 		2DAEABFE1E621BC200187304 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABDA1E621BC200187304 /* Car.swift */; };
 		2DAEABFF1E621BC200187304 /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABDD1E621BC200187304 /* CarDetailViewController.swift */; };
-		2DAEAC001E621BC200187304 /* CarDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABDF1E621BC200187304 /* CarDetailViewModel.swift */; };
 		2DAEAC011E621BC200187304 /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABE31E621BC200187304 /* CarListViewController.swift */; };
 		2DAEAC021E621BC200187304 /* CarListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABE51E621BC200187304 /* CarListViewModel.swift */; };
 		2DAEAC031E621BC200187304 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEABE71E621BC200187304 /* CarTableViewCell.swift */; };
@@ -84,7 +83,6 @@
 		2DAEABCD1E6219ED00187304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAEABDA1E621BC200187304 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		2DAEABDD1E621BC200187304 /* CarDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
-		2DAEABDF1E621BC200187304 /* CarDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarDetailViewModel.swift; sourceTree = "<group>"; };
 		2DAEABE31E621BC200187304 /* CarListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
 		2DAEABE51E621BC200187304 /* CarListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListViewModel.swift; sourceTree = "<group>"; };
 		2DAEABE71E621BC200187304 /* CarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
@@ -212,8 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				2DAEABDC1E621BC200187304 /* ViewControllers */,
-				2DAEABDE1E621BC200187304 /* ViewModels */,
-				2DAEABE01E621BC200187304 /* Views */,
 			);
 			path = CarDetailView;
 			sourceTree = "<group>";
@@ -224,21 +220,6 @@
 				2DAEABDD1E621BC200187304 /* CarDetailViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		2DAEABDE1E621BC200187304 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				2DAEABDF1E621BC200187304 /* CarDetailViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		2DAEABE01E621BC200187304 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		2DAEABE11E621BC200187304 /* CarListView */ = {
@@ -503,7 +484,6 @@
 				2DAEAC0F1E621BC200187304 /* Utility.swift in Sources */,
 				2D88E5CD1E63355B00FCE37D /* ErrorView.swift in Sources */,
 				2DAEAC0C1E621BC200187304 /* CarListService.swift in Sources */,
-				2DAEAC001E621BC200187304 /* CarDetailViewModel.swift in Sources */,
 				2DAEAC031E621BC200187304 /* CarTableViewCell.swift in Sources */,
 				2DAEAC011E621BC200187304 /* CarListViewController.swift in Sources */,
 				2DAEABFE1E621BC200187304 /* Car.swift in Sources */,
