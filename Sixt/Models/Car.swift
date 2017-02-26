@@ -171,7 +171,7 @@ struct Car {
 }
 
 extension Car: Serialize {
-    static func serializer(json: AnyObject) -> AnyObject? {
+    static func serializer(json: AnyObject) -> Car? {
         
         guard let jsonObject = json as? [String: AnyObject] else { return nil }
         let id = jsonObject["id"] as? String ?? ""
@@ -213,7 +213,7 @@ extension Car: Serialize {
             , latitude: latitude
             , longitude: longitude
             , innerCleanliness: innerCleanliness
-            , carImageUrl: carImageUrl) as AnyObject?
+            , carImageUrl: carImageUrl)
         
     }
 }

@@ -24,7 +24,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qeA-hE-97q">
                                 <rect key="frame" x="0.0" y="0.0" width="90" height="101"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rCr-b5-mcj">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sixtPlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="rCr-b5-mcj">
                                         <rect key="frame" x="10" y="10" width="70" height="81"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </imageView>
@@ -72,4 +72,7 @@
             <point key="canvasLocation" x="24" y="16.5"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="sixtPlaceHolder" width="16" height="16"/>
+    </resources>
 </document>

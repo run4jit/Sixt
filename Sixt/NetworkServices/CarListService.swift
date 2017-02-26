@@ -32,7 +32,7 @@ class CarListService: BaseApiService {
                 if let jsonObject = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers) as? Array<AnyObject>, let jsonArray = jsonObject {
                     var cars = [Car]()
                     for json in jsonArray {
-                        if let car = Car.serializer(json: json) as? Car {
+                        if let car = Car.serializer(json: json) {
                             cars.append(car)
                         }
                     }

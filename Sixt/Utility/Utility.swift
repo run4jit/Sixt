@@ -11,7 +11,8 @@ import UIKit
 typealias carListCallBack = (([Car]) -> Void)
 
 protocol Serialize {
-    static func serializer(json: AnyObject) -> AnyObject?
+    associatedtype type
+    static func serializer(json: AnyObject) -> type?
 }
 
 extension NSObject {

@@ -157,7 +157,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MP0-oc-V3x">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="609.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="canMarkerIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ALc-Ok-gqs">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sixtPlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="ALc-Ok-gqs">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="320" id="El1-vg-NFM"/>
@@ -346,6 +346,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="canMarkerIcon" width="30" height="30"/>
+        <image name="sixtPlaceHolder" width="16" height="16"/>
     </resources>
 </document>
